@@ -1,0 +1,59 @@
+{
+  "project" : "DStage",
+  "projectId" : "4b07aa06-1ac8-4723-a0c1-83bc74d5a390",
+  "created_by" : "cpadmin",
+  "created_at" : "2025-02-21T02:29:28.053618201Z",
+  "environment" : "cp4d",
+  "services_info" : [ {
+    "name" : "ds-canvas",
+    "version" : "510.0.59"
+  }, {
+    "name" : "ds-flows",
+    "version" : "510.0.27"
+  }, {
+    "name" : "ds-codegen",
+    "version" : "510.0.27"
+  }, {
+    "name" : "ds-flow-runtime",
+    "version" : "510.0.7"
+  }, {
+    "name" : "ds-migration",
+    "version" : "510.0.30"
+  }, {
+    "name" : "DSAssets",
+    "version" : "510.0.5"
+  }, {
+    "name" : "ds-cas-lite",
+    "version" : "510.0.3"
+  }, {
+    "name" : "ds-px-runtime",
+    "version" : "510.0.22"
+  }, {
+    "name" : "qs-ruleset",
+    "version" : "510.0.5"
+  } ],
+  "assets" : [ {
+    "name" : "Multicloud Data Integration",
+    "type" : "px_executables",
+    "location" : "Multicloud Data Integration"
+  }, {
+    "name" : "Multicloud Data Integration",
+    "type" : "data_intg_flow"
+  }, {
+    "name" : "Data Fabric Trial - MongoDB",
+    "type" : "connection"
+  }, {
+    "name" : "Multicloud Data Integration.DataStage job",
+    "type" : "job"
+  }, {
+    "name" : "Data Fabric Trial - Databases for PostgreSQL",
+    "type" : "connection"
+  }, {
+    "name" : "4b07aa06-1ac8-4723-a0c1-83bc74d5a390-DataStage_settings",
+    "type" : "data_intg_project_settings"
+  }, {
+    "name" : "Data Fabric Trial - Db2 Warehouse",
+    "type" : "connection"
+  } ],
+  "flow_job_mapping" : [ ]
+}
