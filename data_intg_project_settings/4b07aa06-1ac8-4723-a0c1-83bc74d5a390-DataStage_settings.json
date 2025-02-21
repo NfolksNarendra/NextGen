@@ -1,0 +1,55 @@
+{
+  "project" : {
+    "runMessageHandlerId" : "",
+    "formatDecimalSeparator" : "",
+    "testDataBasePath" : "",
+    "jobNameSuffix" : ".DataStage job",
+    "sequenceNameSuffix" : ".DataStage sequence",
+    "defineParameters" : false,
+    "runEnvironmentId" : "b66ec9b2-0767-4a25-bb80-a6cb51af3ba9",
+    "runPriorityQueue" : "Medium",
+    "runArtifactRetention" : {
+      "enabled" : false
+    },
+    "runRemoteEngineEnforcement" : false,
+    "testDataProperties" : {
+      "testCaseJobNameSuffix" : ".DataStageTestCase Job",
+      "testDataConnectionType" : ""
+    },
+    "saveFrequency" : "save_changes_automatically",
+    "gitIntegration" : {
+      "enableGit" : true,
+      "gitProvider" : "git",
+      "gitFolder" : "",
+      "gitToken" : "{dsnextenc}lt56k8ACPjk4EgQ5xct9+d/ne8Dn3QB3Wlm/TAYhaRSEDBX7BKvHpPdbaTGd4hIQ",
+      "gitURL" : "https://github.com/NfolksNarendra/NextGen.git",
+      "gitBranch" : "DevBC"
+    },
+    "formatTimeString" : "",
+    "thresholdLimits" : { },
+    "formatDateString" : "",
+    "flowLimits" : {
+      "warnLimit" : 100
+    },
+    "testDataConnectionId" : "",
+    "nlsCollate" : "OFF",
+    "metricsRepository" : {
+      "enableMetrics" : false,
+      "metricsRetention" : {
+        "enabled" : false
+      },
+      "connection" : {
+        "datasource_type" : "e1c23729-99d8-4407-b3df-336e33ffdc82",
+        "properties" : {
+          "query_timeout" : "300",
+          "retry_limit" : "2"
+        }
+      },
+      "enableAdvancedFind" : false
+    },
+    "disableParamsRefreshCache" : false,
+    "nlsMap" : "",
+    "formatTimestampString" : "",
+    "runEnvironmentNames" : [ "default_datastage_px" ]
+  }
+}

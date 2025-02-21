@@ -1,0 +1,35 @@
+{
+  "metadata" : {
+    "name" : "mcData_Integration.DataStage job",
+    "asset_id" : "630ddbc7-c489-4082-b4c0-ccf6aec96a87",
+    "owner_id" : "1000331001",
+    "version" : 0
+  },
+  "entity" : {
+    "job" : {
+      "asset_ref_type" : "data_intg_flow",
+      "configuration" : {
+        "env_variables" : [ ],
+        "flow_limits" : {
+          "warn_limit" : 100
+        },
+        "runPriorityQueue" : "Medium",
+        "env_id" : "b66ec9b2-0767-4a25-bb80-a6cb51af3ba9",
+        "env_type" : "datastage"
+      },
+      "last_run_initiator" : "deprecated field",
+      "last_run_time" : "deprecated field",
+      "last_run_status" : "deprecated field",
+      "last_run_status_timestamp" : 0,
+      "future_scheduled_runs" : [ ],
+      "enable_notifications" : true,
+      "project_name" : "DStage",
+      "asset_ref" : "86a2aa18-587d-4a58-89f1-486ee415707b",
+      "parameter_sets" : [ ],
+      "schedule_id" : "",
+      "schedule_creator_id" : "",
+      "data_assets_array" : [ "APPLICANTS_INTEREST_RATES.csv=APPLICANTS_INTEREST_RATES.csv=9d17074c-c6b0-4154-9f1e-625b6c90c55b" ],
+      "flow_name" : "mcData_Integration"
+    }
+  }
+}
